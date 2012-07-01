@@ -1,0 +1,17 @@
+th.sub {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: white;
+	background-color: #9c9;
+	border-right: 1px solid blue;
+	border-top: 1px solid blue;
+	border-bottom: 1px solid #666;
+}
+.ltab2 {
+    font-weight: bolder;
+}
+
+.ltab3 {
+    margin-left:auto;
+    margin-right:auto;
+}
+

@@ -1,0 +1,420 @@
+/* @group Reset */
+
+	body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+		margin:0;
+		padding:0;
+	}
+	table {
+		border-collapse:collapse;
+		border-spacing:0;
+	}
+	fieldset,img { 
+		border:0;
+	}
+	address,caption,cite,code,dfn,em,strong,th,var {
+		font-style:normal;
+		font-weight:normal;
+	}
+	ol,ul {
+		list-style:none;
+	}
+	caption,th {
+		text-align:left;
+	}
+	h1,h2,h3,h4,h5,h6 {
+		font-size:100%;
+		font-weight:normal;
+	}
+	q:before,q:after {
+		content:'';
+	}
+	abbr,acronym { border:0;
+	}
+
+/* @end Reset */
+
+
+body {
+	background: 		#000e1c url(file:///C|/Users/ingrid/Desktop/William%20Projects/jaabuu/css/images/body-bg.jpg) top left repeat-x;
+	font-family: 		Helvetica;
+	font-size: 			12px;
+	color: 				#444;;	
+}
+
+h2 {
+	font-size: 			20px;
+	letter-spacing:		-1px;	
+	color: 				#204469;
+	margin-bottom: 		10px;
+}
+
+.alt {
+	color: 				#0069d5;
+}
+
+.num {
+	color: 				#666;
+	font-size: 			11px;
+}
+
+a {
+	color: 				#105398;
+	text-decoration:	underline;
+}
+
+/* @group Layout */
+
+	#page {
+		width: 			960px;
+		margin: 		0 auto;
+		border-left:  	1px solid #007dff;
+		border-right:  	1px solid #007dff;
+	}
+
+/* @end Layout */
+
+/* @group Header */
+
+	#header {
+		background: 	url(file:///C|/Users/ingrid/Desktop/William%20Projects/jaabuu/css/images/header-bg.jpg) top left no-repeat;
+		height: 		145px;
+	}
+	
+	#header #site-title {
+		text-indent:	-9999px;
+	}
+	
+/* @end */
+
+/* @group Navigation */
+
+	#navigation {
+		background: 	#004286 url(file:///C|/Users/ingrid/Desktop/William%20Projects/jaabuu/css/images/navigation-bg.jpg) top left no-repeat;
+		overflow:		hidden;
+		border-bottom:  1px solid #0064d1;
+	}
+
+	#navigation li {
+		float: 			left;
+		margin: 		12px 0;
+		padding: 		0 15px;
+		border-right:   1px solid #fff;
+	}
+
+	#navigation li.last {
+		border-right: 	none;
+	}
+
+	#navigation li a {
+		color: 			#fff;
+		text-decoration:none;
+	}
+
+	#navigation li.active a {
+		border-bottom: 	3px solid #668eb8;
+	}
+
+	#navigation li a:hover {
+		border-bottom: 	3px solid #668eb8;
+	}
+
+/* @end */
+
+/* @group Breadcrumb */
+
+	#breadcrumb {
+		background: 	#000;
+		line-height:	40px;
+		font-size: 		12px;
+		color: 			#fff;
+		padding:		0 0 0 15px;
+	}
+
+	#breadcrumb a {
+		color: 			#eee;
+		text-decoration:none;
+	}
+
+	#breadcrumb a:hover {
+		color: 			#fff;
+	}
+
+/* @end */
+
+/* @group Main */
+
+	#main {
+		background: 	#0058b4;
+		padding: 		16px;
+	}
+
+	#main .section {
+		background: 	#fff;
+		padding: 		10px;
+		margin: 		0 0 16px 0;
+		clear: 			both;
+		overflow: 		hidden;
+		
+		/*-moz-border-radius: 	8px;
+		-webkit-border-radius:	8px;*/
+	}
+	
+	#main .section.left {
+		float: 			left;
+		width: 			435px;
+		clear: 			left;
+	}
+
+	#main .section.right {
+		float: 			right;
+		width: 			435px;
+		clear: 			right;
+	}
+
+	#main .section .links {
+		margin:				30px 0 10px 10px;
+		font-size:			12px;	
+	}
+
+/* @end */
+
+/* @group Footer */
+
+	#footer {
+		background: 	#0058b4;
+		padding: 		0 20px 20px 0;
+		text-align: 	right;
+		color: 			#fff;
+		font-weight: 	bold;
+	}
+
+/* @end */
+
+/* @group Forms */
+
+	.form-item {
+		margin: 		8px 0;
+	}
+	
+	form label {
+		display: 		block;
+		color: 			#004892;
+		font-size: 		11px;
+		font-weight: 	bold;
+	}
+
+	form label.option {
+		display: 		inline;
+		color: 			#000;
+		text-transform: uppercase;
+		padding: 		0 10px 0 3px;
+	}
+
+	input[type=text], textarea {
+		border: 		1px solid #0058b4;
+		padding: 		3px;
+		color: 			#555;
+		width: 			90%;
+	}
+	
+	input[type=submit],
+	input[type=button] {
+		background:		#0069d5;
+		border: 		none;
+		padding: 		5px 10px;
+		color: 			#fff;
+		font-size: 		16px;
+		text-transform: uppercase;
+		cursor: 		pointer;
+	}
+
+	input[type=submit]:hover,
+	input[type=button]:hover {
+		background:		#0058b4;
+	}
+
+/* @end */
+
+/* @group Tables */
+
+	table {
+		width: 			100%;
+	}
+
+	th {
+		font-weight: 	bold;
+		color: 			#004892;
+		padding: 		5px 0;
+	}
+	
+	td {
+		color: 			#666;
+	}
+
+/* @end */
+
+/* @group Lists */
+
+	dl {
+		overflow: 		hidden;
+		margin: 		10px 0;
+	}
+
+	dt {
+		font-weight:	bold;
+		float: 			left;
+		clear: 			left;
+		width: 			100px;
+	}
+
+	dd {
+		float: 			left;
+	}
+
+
+/* @end */
+
+
+
+/* @group Sections */
+
+	.section ul.alpha {
+		overflow: 		hidden;
+		margin: 		15px 0;
+	}
+	.section ul.alpha li {
+		float: 			left;
+		padding: 		0 12px;
+		text-transform: uppercase;
+	}
+
+	.section ul.alpha li a {
+		color: 			#0069d5;
+		font-weight: 	bold;
+	}
+	
+	.section .column {
+		float: 			left;
+	}
+
+	.section .column.column2 {
+		width: 			450px;
+	}
+	
+	.section.search-continent ul.countries {
+		overflow:	hidden;
+		padding: 	10px 0;
+	}
+
+	.section.search-continent li.country {
+		float: 		left;
+		width: 		20%;
+	}
+
+	.section.search-continent li.country ul {
+		padding-left:	15px;
+		overflow:		hidden;
+		font-size: 		11px;
+	}
+	
+	.section.search-continent li.country ul li {
+		float: 			left;
+		padding: 		0 3px;
+		border-right: 	1px solid #0069d5;
+	}
+
+	.section.search-continent li.country ul li.last {
+		border-right: 	none;
+	}
+
+	.section.search-continent ul.extra {
+		margin: 		10px 0 0 0;
+		overflow: 		hidden;
+	}
+	.section.search-continent ul.extra li {
+		width: 			33%;
+		float: 			left;
+	}
+	.section.search-continent ul.extra li p {
+		color: 			#000;
+		font-size:		11px;
+	}
+	.section.search-continent ul.extra li a.view-all {
+		display: 		block;
+		float:			left;
+	}
+	.section.search-continent ul.extra li a.add-to-search {
+		display: 		block;
+		float:			right;
+		margin-right:	22px;
+	}
+	
+	.section .ignore-domain form,
+	.section .search-keywords form {
+		border: 		1px solid #0069d5;
+		padding: 		10px;
+		margin-right: 	10px;	
+	}
+
+	.section .search-keywords  form label,
+	.section .ignore-domain form label {
+		display: 		inline;
+		width: 			200px;
+		font-size: 		16px;
+		padding-right: 	20px;
+	}
+
+	.section .search-keywords  form input[type=text],
+	.section .ignore-domain form input[type=text] {
+		width: 			283px;
+	}
+	
+	.section .search-keywords  .instr,
+	.section .ignore-domain .instr {
+		text-align: 	right;
+		font-size:		11px;
+		margin-bottom: 	20px;
+	}
+
+	.section .search-keywords  .instr a,
+	.section .ignore-domain .instr a {
+		margin-left: 	15px;
+	}
+	
+	.section .search-keywords  ul.keywords,
+	.section .ignore-domain ul.domains {
+		overflow:		hidden;
+		font-size: 		11px;
+	}
+
+	.section .search-keywords  ul.keywords li,
+	.section .ignore-domain ul.domains li {
+		float: 			left;
+		width:			135px;
+		margin: 		1px 0;
+	}
+	
+	
+	.section.send .form-item.email,
+	.section.send .form-item.company {
+		float: 			left;
+		width: 			25%;
+	}
+
+	.section.send .form-item.options {
+		float: 			left;
+		width: 			49%;
+	}
+
+	.section.send .form-item.options div {
+		margin: 		5px 0;
+	}
+	
+	.section.send .form-item.subject {
+		clear: 			both;
+	}
+	
+	
+/* @end */
+
+

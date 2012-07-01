@@ -1,0 +1,99 @@
+fieldset.formFieldSet {
+	border: 2px solid #889E88;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+legend.formLegend {
+	font-family: "Times New Roman", "Times", "serif";
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #FF0000;
+	margin: 2px;
+}
+legend.formLegend a {
+	text-decoration: none;
+}
+label {
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 10px;
+	vertical-align: middle;
+}
+table caption {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1em;
+	color: #99CC00;
+}
+.form-item {
+	margin: 		8px 0;
+}
+form label {
+	/*display: 		block;*/
+		color: 			#004892;
+	font-size: 		10px;
+	font-weight: 	bold;
+}
+form label.option {
+	display: 		inline;
+	color: 			#000;
+	text-transform: uppercase;
+	padding: 		0 10px 0 3px;
+}
+input[type=text], textarea {
+	border: 		1px solid #0058b4;
+	padding: 		3px;
+	color: 			#555;
+}
+input[type=reset], input[type=submit], input[type=button] {
+	background:		#0069d5;
+	border: 		none;
+	padding: 		4px 4px;
+	color: 			#fff;
+	font-size: 		10px;
+	text-transform: uppercase;
+	cursor: 		pointer;
+}
+input[type=submit]:hover, input[type=button]:hover {
+	background:		#0058b4;
+}
+#search_form {
+	/* width:300px; height:80px; clear:both; */
+	font-family:Arial, sans-serif;
+	font-size:9px;
+	border:0px solid black;
+}
+#content {
+	font-family:Arial, sans-serif;
+	font-size:11px;
+	border:1px solid black;
+}
+ul {
+	list-style-type:none;
+	/*overflow: hidden;*/
+	margin: 2px 0;
+	padding: 2px;
+}
+ul li {
+	margin: 		1px 0;
+	padding: 		0 3px;
+	/* border-right: 	1px solid #0069d5; */
+}
+.a1 {
+	border-bottom-width: thin;
+	border-bottom-style: dotted;
+	border-bottom-color: #333333;
+	font-weight: bold;
+}
+#width: 90%;
+.a2 {
+	border: 1px solid #0058b4;
+	padding: 3px;
+	color: 	#555;
+}
+a {
+    color:              #105398;
+    text-decoration:    underline;
+}
+
